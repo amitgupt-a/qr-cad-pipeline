@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Node
+node_modules/
+dist/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Generated runtime data (kept empty on disk via .gitkeep)
+backend/data/uploads/*
+backend/data/outputs/*
+backend/data/qr/*
+!backend/data/uploads/.gitkeep
+!backend/data/outputs/.gitkeep
+!backend/data/qr/.gitkeep
